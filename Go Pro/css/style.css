@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* navbar */
+
+.navbar{
+    background-color: #144272;
+}
+
+.navbar-brand{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.navbar-nav{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/* header */
+
+header{
+    padding-top: 10%;
+    padding-bottom: 5%;
+    background-color: #144272;
+    color: #fff;
+    border-radius: 0 0 0 25%;
+}
+
+header .btn{
+    background-color: #D89216;
+    color: #fff;
+    margin-top: 10%;
+}
+
+header .btn:hover{
+    background-color: transparent;
+    border: 1px solid #D89216;
+    color: #D89216;
+}
+
+header img{
+    height: 80%;
+    position: absolute;
+    left: 40%;
+    right: 0;
+    top: 25%;
+    
+}
+
+ /* Card */
+
+ .card-heading{
+    padding: 8px 30%;
+    margin: 10% 0;
+}
+
+.card-heading h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.card-heading p{
+    color: grey;
+}
+
+.why{
+    margin-top: 15%;
+}
+
+.why .card:hover{
+    box-shadow: 10px 10px 10px 10px rgba(128, 128, 128, 0.704);
+    transition: 0.5s;
+}
+
+.card-body h5{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.card-body p{
+    color: gray;
+    font-weight: 500;
+}
+
+.why .fa-disease{
+    color: #D89216;
+    padding: 10px;
+    border-radius: 10px;    
+}
+
+.disease:hover .fa-disease{
+    color: #fff;
+    transition: 1s;
+    background-color: #d89116;
+}
+
+.why .fa-download{
+    color: #1687d8;
+    padding: 10px;
+    border-radius: 10px; 
+}
+
+.download:hover .fa-download{
+    color: #fff;
+    transition: 1s;
+    background-color:#1687d8;
+}
+
+.why .fa-user-group{
+    color: #1633d8;
+    padding: 10px;
+    border-radius: 10px; 
+}
+
+.user:hover .fa-user-group{
+    color: #fff;
+    transition: 1s;
+    background-color:#1633d8;
+}
+
+.why .fa-headset{
+    color: #d516d8;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.headset:hover .fa-headset{
+    color: #fff;
+    transition: 1s;
+    background-color:#d516d8;
+}
+
+/* Lady */
+
+.color-box{
+    height: 280px;
+    width: 40%;
+    margin-top: 2%;
+    border-radius: 0 50px 50px 0;
+    background-color: #144272;
+    transform: translateX(40%);
+}
